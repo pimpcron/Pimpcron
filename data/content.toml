@@ -10,4 +10,4 @@ url = "https://github.com/dwalkr/sasquatch"
 [[links]]
 subtitle = "Get started with a new Sasquatch project in Forestry"
 title = "Create Your Own"
-url = "https://app.forestry.io/quick-start?repo=dwalkr/sasquatch"
+url = "https://app.forestry.io/quick-start?repo=dwalkr/sasquatch&engine=hugo"
