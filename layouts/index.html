@@ -4,42 +4,42 @@
     </head>
     <body class="text--{{ .Site.Data.appearance.textColor }}" style="background-color: {{ .Site.Data.appearance.backgroundColor }};" >
         <div class="content-wrap">
-            {{ if .Site.Data.appearance.backgroundImage }}
+            {{- if .Site.Data.appearance.backgroundImage }}
             <div class="bg-image-wrap">
                 {{ partial "bgImage" . }}
                 <div class="img-gradient" style="background-image: linear-gradient(to bottom, transparent 0%, transparent 50%, {{ .Site.Data.appearance.backgroundColor }}); background-size: 101%;"></div>
             </div>
-            {{ end }}
+            {{ end -}}
             <div class="container">
                 <header class="main-header">
                     <h1 class="site-title">{{ .Site.Data.content.title }}</h1>
                 </header>
                 <main class="main-content">
-                    {{ with .Site.Data.content.logo }}
+                    {{- with .Site.Data.content.logo }}
                     <section class="section logo">
                         <img class="site-logo" alt="{{ $.Site.Data.content.title }}" src="/images/{{ . }}" />
                     </section>
-                    {{ end }}
-                    {{ with .Site.Data.content.description}}
+                    {{- end -}}
+                    {{- with .Site.Data.content.description}}
                     <section class="section description">{{ safeHTML . }}</section>
-                    {{ end }}
+                    {{- end }}
                     <section class="section">
                         <nav class="links">
-                            {{ range .Site.Data.content.links }}
+                            {{- range .Site.Data.content.links }}
                             <div class="link">
                                 <a href="{{ .url }}">
                                     <span class="link-text">{{ .title }}</span>
                                 </a>
-                                {{ with .subtitle }}
+                                {{- with .subtitle -}}
                                 <div class="link-subtitle">{{ . }}</div>
-                                {{ end }}
+                                {{- end }}
                             </div>
-                            {{ end }}
+                            {{- end }}
                         </nav>
                     </section>
                 </main>
             </div>
         </div>
-        {{ partial "footer" . }}
+        {{- partial "footer" . -}}
     </body>
 </html>
