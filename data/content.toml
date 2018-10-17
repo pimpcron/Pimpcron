@@ -1,13 +1,13 @@
 description = "Sasquatch is your <strong>internet footprint</strong>.<br><br>Use Sasquatch to create a <strong>static landing page</strong> for your personal brand, and let people know where on the internet they can find you."
-subtitle = "Your Internet Footprint"
-title = "Sasquatch"
 favicon = "/favicon.png"
 logo = "/sasquatch.png"
+subtitle = "Your Internet Footprint"
+title = "Sasquatch"
 [[links]]
 subtitle = "Learn More About Sasquatch"
 title = "GitHub"
-url = ""
+url = "https://github.com/dwalkr/sasquatch"
 [[links]]
 subtitle = "Get started with a new Sasquatch project in Forestry"
 title = "Create Your Own"
-url = ""
+url = "https://app.forestry.io/quick-start?repo=dwalkr/sasquatch"
