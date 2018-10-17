@@ -1,0 +1,38 @@
+---
+label: Appearance
+hide_body: false
+is_partial: false
+fields:
+- type: select
+  name: textColor
+  config:
+    source:
+      type: simple
+    options:
+    - light
+    - dark
+  label: Text Color
+  default: light
+- type: color
+  name: accentColor
+  config:
+    color_format: Hex
+  label: Accent Color
+- type: color
+  name: backgroundColor
+  config:
+    color_format: Hex
+  label: Background Color
+- name: backgroundImage
+  label: Backgroundimage
+  type: file
+  hidden: false
+  default: ''
+- name: includePromotionalFooter
+  label: Include Promotional Footer
+  type: boolean
+  hidden: false
+  default: true
+  description: Give us a shout out in the website's footer.
+pages:
+- data/appearance.toml

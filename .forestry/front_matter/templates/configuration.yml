@@ -1,0 +1,11 @@
+---
+label: Configuration
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: baseURL
+  label: Base URL
+  description: The URL of your website.
+pages:
+- config.toml
