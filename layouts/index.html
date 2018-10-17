@@ -17,7 +17,7 @@
                 <main class="main-content">
                     {{- with .Site.Data.content.logo }}
                     <section class="section logo">
-                        <img class="site-logo" alt="{{ $.Site.Data.content.title }}" src="/images/{{ . }}" />
+                        <img class="site-logo" alt="{{ $.Site.Data.content.title }}" src="{{ strings.TrimRight "/" $.Site.BaseURL }}/images/{{ strings.TrimLeft "/" . }}" />
                     </section>
                     {{- end -}}
                     {{- with .Site.Data.content.description}}
