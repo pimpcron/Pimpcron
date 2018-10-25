@@ -19,3 +19,5 @@ fields:
     name: content
     label: Content
     template: content
+pages:
+- data/pageOptions.toml
