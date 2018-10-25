@@ -42,7 +42,7 @@ In some ways, Sasquatch is an experiment. I hope you give it a shot, and ping me
 
 Sasquatch sites are built with [Hugo](https://gohugo.io). All customizable options are stored in [data/pageOptions.toml](https://github.com/dwalkr/sasquatch/blob/master/data/pageOptions.toml), and this file is what is exposed in the Forestry UI to make the customizer work.
 
-To run this site locally, you must have Hugo installed. I recommend the latest version of Hugo, but anything from `0.42` and up should be fine.
+To run this site locally, you must have Hugo installed. I recommend the latest version of Hugo, but anything from `0.43` and up should be fine.
 
 Start the local development server by running `hugo server`.
 
