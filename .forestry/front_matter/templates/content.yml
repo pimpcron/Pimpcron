@@ -48,5 +48,3 @@ fields:
   default: ''
   config:
     labelField: title
-pages:
-- data/content.toml

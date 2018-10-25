@@ -34,5 +34,3 @@ fields:
   hidden: false
   default: true
   description: Give us a shout out in the website's footer.
-pages:
-- data/appearance.toml
