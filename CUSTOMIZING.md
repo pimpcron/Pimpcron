@@ -4,7 +4,7 @@ Once your site is successfully imported to Forestry, you will be presented with 
 
 ## The Toolbar
 
-![Forestry status bar](meta/statusbar.png)
+![Forestry status bar](https://raw.githubusercontent.com/dwalkr/sasquatch/master/meta/statusbar.png)
 
 At the top of the screen, you will see the toolbar. 
 
@@ -16,18 +16,18 @@ At the top of the screen, you will see the toolbar.
 
 ## Using the Customizer
 
-![](meta/screen1.png)
+![](https://raw.githubusercontent.com/dwalkr/sasquatch/master/meta/screen1.png)
 
 The customization options are broken up into two sections: **Appearance** and **Content**. Click on one of these panels to edit the relevant section.
 
-![](meta/screen2.png)
+![](https://raw.githubusercontent.com/dwalkr/sasquatch/master/meta/screen2.png)
 
-When editing values in one of these subsections, click the back arrow &nbsp; ![](meta/caret-left.png) &nbsp; next to the section title to return to the top level.
+When editing values in one of these subsections, click the back arrow &nbsp; ![](https://raw.githubusercontent.com/dwalkr/sasquatch/master/meta/caret-left.png) &nbsp; next to the section title to return to the top level.
 
 ### Editing Links
 
-![](meta/editing-links.gif)
+![](https://raw.githubusercontent.com/dwalkr/sasquatch/master/meta/editing-links.gif)
 
 Click the **Add link** button to add a new empty link. Click on the item you just created to edit the link details.
 
-Clicking on the three lines &nbsp; ![](meta/burger.png) &nbsp; on the left side of the box will allow you to reorder links by dragging and droppping.
+Clicking on the three lines &nbsp; ![](https://raw.githubusercontent.com/dwalkr/sasquatch/master/meta/burger.png) &nbsp; on the left side of the box will allow you to reorder links by dragging and droppping.
