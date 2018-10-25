@@ -11,6 +11,7 @@ fields:
     template: appearance-toml
     label: Appearance
     name: appearance
+  description: Customize the background and colors
 - type: field_group
   name: content
   label: Content
@@ -19,5 +20,6 @@ fields:
     name: content
     label: Content
     template: content
+  description: Change title, logo, and links
 pages:
 - data/pageOptions.toml
