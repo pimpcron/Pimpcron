@@ -1,0 +1,25 @@
+---
+label: Customizer
+hide_body: true
+is_partial: false
+fields:
+- type: field_group
+  label: Appearance
+  name: appearance
+  fields:
+  - type: include
+    template: appearance-toml
+    label: Appearance
+    name: appearance
+  description: Customize the background and colors
+- type: field_group
+  name: content
+  label: Content
+  fields:
+  - type: include
+    name: content
+    label: Content
+    template: content
+  description: Change title, logo, and links
+pages:
+- data/pageOptions.toml

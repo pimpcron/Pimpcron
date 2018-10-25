@@ -1,14 +1,14 @@
-{{ $img := strings.TrimLeft "/" .Site.Data.appearance.backgroundImage }}
-{{ $imgResource := (.Site.GetPage "section" "images").Resources.GetMatch $img }}
-{{ if $imgResource }}
-{{ if eq $imgResource.ResourceType "image" }}
-{{ $imgData := imageConfig (printf "/content/images/%s" $img) }}
-{{ $height := $imgData.Height }}
-{{ $xs := $imgResource.Fill (printf "640x%d Top" $height) }}
-{{ $sm := $imgResource.Fill (printf "768x%d Top" $height) }}
-{{ $md := $imgResource.Fill (printf "1024x%d Top" $height) }}
-{{ $lg := $imgResource.Fill (printf "1400x%d Top" $height) }}
-{{ $xl := $imgResource.Fill (printf "1920x%d Top" $height) }}
+{{- $img := strings.TrimLeft "/" .Site.Data.pageOptions.appearance.backgroundImage -}}
+{{- $imgResource := (.Site.GetPage "section" "images").Resources.GetMatch $img -}}
+{{- if $imgResource -}}
+{{- if eq $imgResource.ResourceType "image" -}}
+{{- $imgData := imageConfig (printf "/content/images/%s" $img) -}}
+{{- $height := $imgData.Height -}}
+{{- $xs := $imgResource.Fill (printf "640x%d Top" $height) -}}
+{{- $sm := $imgResource.Fill (printf "768x%d Top" $height) -}}
+{{- $md := $imgResource.Fill (printf "1024x%d Top" $height) -}}
+{{- $lg := $imgResource.Fill (printf "1400x%d Top" $height) -}}
+{{- $xl := $imgResource.Fill (printf "1920x%d Top" $height) -}}
 <img 
     class="bg-image"
     srcset="{{ $xl.RelPermalink }} 1920w,
@@ -18,9 +18,9 @@
     {{ $xs.RelPermalink }} 640w"
     sizes="100vw"
     src="{{ $xl.RelPermalink }}" />
-{{ else }}
+{{- else }}
 <img class="bg-image" src="/images/{{ $img }}" />
-{{ end }}
-{{ else }}
+{{- end -}}
+{{- else }}
 <img class="bg-image" src="/images/{{ $img }}" />
-{{ end }}
+{{- end -}}

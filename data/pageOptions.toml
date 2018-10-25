@@ -1,0 +1,20 @@
+[appearance]
+accentColor = "#bce784"
+backgroundColor = "#454851"
+backgroundImage = "/raymond-culbertson-32168-unsplash.jpg"
+includePromotionalFooter = true
+textColor = "light"
+[content]
+description = "Sasquatch is your <strong>internet footprint</strong>.<br><br>Use Sasquatch to create a <strong>static landing page</strong> for your personal brand, and let people know where on the internet they can find you."
+favicon = "/favicon.png"
+logo = "/sasquatch.png"
+subtitle = "Your Internet Footprint"
+title = "Sasquatch"
+[[content.links]]
+subtitle = "Learn more about Sasquatch"
+title = "View on GitHub"
+url = "https://github.com/dwalkr/sasquatch"
+[[content.links]]
+subtitle = "Get started with a new Sasquatch project in Forestry"
+title = "Create Your Own"
+url = "https://app.forestry.io/quick-start?repo=dwalkr/sasquatch&engine=hugo"
