@@ -34,4 +34,20 @@ Click the **Add link** button to add a new empty link. Click on the item you jus
 
 Clicking on the three lines &nbsp; ![](https://raw.githubusercontent.com/dwalkr/sasquatch/master/meta/burger.png) &nbsp; on the left side of the box will allow you to reorder links by dragging and droppping.
 
+## Site Config
+
+Clicking on **Site Config** will give you access to the site configuration options. 
+
+When you're ready to make your website live on the internet, you will want to update the value of **Base URL**. Until then, feel free to remove the existing value and leave it blank.
+
+## Making Your Page Live
+
+**The preview of your page in Forestry is not permanent. Do not share this URL!** To create a permanent URL for your landing page, you will need to set up hosting.
+
+This project is pre-configured for easy setup with [Netlify](https://www.netlify.com/). Sign up with them and import this project with the default settings.
+
+**Remember to change or remove the value of `baseURL` in your Site Config.** If the page deployed by Netlify doesn't look right, you probably forgot to do this.
+
+
+
 </div>
