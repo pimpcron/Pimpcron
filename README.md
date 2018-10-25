@@ -1,12 +1,8 @@
 <div style="text-align: center;">
 
-![](banner.png)
+![Sasquatch: your internet footprint](banner.png)
 
 </div>
-
-# Sasquatch
-
-*Your internet footprint*
 
 If you have a presence on the internet, you are probably active on a variety of services: Facebook, Twitter, Reddit, Discord, the list goes on. How do you manage a distributed identity like this? For us web developers, the answer seems obvious: just build yourself a website!
 
