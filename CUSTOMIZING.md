@@ -1,0 +1,37 @@
+# Customizing Your Site in Forestry
+
+Once your site is successfully imported to Forestry, you will be presented with your site dashboard. Click on **Customize** to access the customizer. You are now editing the data file that controls the look and contents of your landing page.
+
+## The Toolbar
+
+![Forestry status bar](meta/statusbar.png)
+
+At the top of the screen, you will see the toolbar. 
+
+1. This indicator shows that you have made changes to this data that has not yet been saved. Clicking on this will give you the option to revert your content back to your last save.
+
+2. Click the eye icon to open a preview of your landing page.
+
+3. Click this button to save your changes.
+
+## Using the Customizer
+
+![](meta/screen1.png)
+
+The customization options are broken up into two sections: **Appearance** and **Content**. Click on one of these panels to edit the relevant section.
+
+![](meta/screen2.png)
+
+When editing values in one of these subsections, click the back arrow &nbsp; ![](meta/caret-left.png) &nbsp; next to the section title to return to the top level.
+
+### Editing Links
+
+<video>
+    <source src="meta/editing-links.mp4" type="video/mp4">
+</video>
+
+<a href="meta/editing-links.mp4" target="_blank">View this video in a new tab</a>
+
+Click the **Add link** button to add a new empty link. Click on the item you just created to edit the link details.
+
+Clicking on the three lines &nbsp; ![](meta/burger.png) &nbsp; on the left side of the box will allow you to reorder links by dragging and droppping.
