@@ -12,7 +12,7 @@ If you have a presence on the internet, you are probably active on a variety of 
 
 This solution is not within reach for everyone. The primary goal of **Sasquatch** is to make it easy for anyone to create their own **personal landing page** to manage their online identity. 
 
-These landing pages are relatively simple: your name, a logo,a little text, and a list of links to places on the internet where you're active.
+These landing pages are relatively simple: your name, a logo,a little text, and a list of links to places on the internet where you're active. The [website for this project](https://dwalkr.github.io/sasquatch/) is an example of what a Sasquatch page will look like.
 
 ## Creating Your Own Footprint
 
