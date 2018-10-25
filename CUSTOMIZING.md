@@ -26,11 +26,7 @@ When editing values in one of these subsections, click the back arrow &nbsp; ![]
 
 ### Editing Links
 
-<video>
-    <source src="meta/editing-links.mp4" type="video/mp4">
-</video>
-
-<a href="meta/editing-links.mp4" target="_blank">View this video in a new tab</a>
+![](meta/editing-links.gif)
 
 Click the **Add link** button to add a new empty link. Click on the item you just created to edit the link details.
 
