@@ -2,4 +2,20 @@
 label: Customizer
 hide_body: true
 is_partial: false
-fields: []
+fields:
+- type: field_group
+  label: Appearance
+  name: appearance
+  fields:
+  - type: include
+    template: appearance-toml
+    label: Appearance
+    name: appearance
+- type: field_group
+  name: content
+  label: Content
+  fields:
+  - type: include
+    name: content
+    label: Content
+    template: content
