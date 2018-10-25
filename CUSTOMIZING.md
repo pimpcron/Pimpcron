@@ -1,3 +1,5 @@
+<div style="max-width: 60em; margin: 0 auto;">
+
 # Customizing Your Site in Forestry
 
 Once your site is successfully imported to Forestry, you will be presented with your site dashboard. Click on **Customize** to access the customizer. You are now editing the data file that controls the look and contents of your landing page.
@@ -31,3 +33,5 @@ When editing values in one of these subsections, click the back arrow &nbsp; ![]
 Click the **Add link** button to add a new empty link. Click on the item you just created to edit the link details.
 
 Clicking on the three lines &nbsp; ![](https://raw.githubusercontent.com/dwalkr/sasquatch/master/meta/burger.png) &nbsp; on the left side of the box will allow you to reorder links by dragging and droppping.
+
+</div>
