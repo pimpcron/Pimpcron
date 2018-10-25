@@ -1,6 +1,6 @@
 <div style="text-align: center;">
 
-![](logo.png)
+![](banner.png)
 
 </div>
 
