@@ -1,4 +1,4 @@
-{{- $img := strings.TrimLeft "/" .Site.Data.appearance.backgroundImage -}}
+{{- $img := strings.TrimLeft "/" .Site.Data.pageOptions.appearance.backgroundImage -}}
 {{- $imgResource := (.Site.GetPage "section" "images").Resources.GetMatch $img -}}
 {{- if $imgResource -}}
 {{- if eq $imgResource.ResourceType "image" -}}
