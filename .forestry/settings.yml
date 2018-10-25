@@ -5,6 +5,10 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
+  path: CUSTOMIZING.md
+  label: Help
+  read_only: true
+- type: document
   path: data/pageOptions.toml
   label: Customize
 - type: document
