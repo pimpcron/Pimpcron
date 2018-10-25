@@ -5,14 +5,12 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: data/content.toml
-  label: Content
-- type: document
-  path: data/appearance.toml
-  label: Appearance
+  path: data/pageOptions.toml
+  label: Customize
+  match: "**/*"
 - type: document
   path: config.toml
-  label: Configuration
+  label: Site Config
 upload_dir: content/images
 public_path: ''
 front_matter_path: ''
