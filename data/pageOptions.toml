@@ -5,16 +5,24 @@ backgroundImage = "/43745615_246714396008350_5504239325581148160_n.png"
 includePromotionalFooter = true
 textColor = "light"
 [content]
-description = "Pimpcron is a weekly conn ell of Lost Souls, owner of Shorehammer convention, host of the Pimpcron Warhammer Podcast, and creator of Brutality Skirmish Wargame."
+description = "Pimpcron is a weekly 40k contributor to Bell of Lost Souls, owner of Shorehammer convention, host of the Pimpcron Warhammer Podcast, and creator of Brutality Skirmish Wargame."
 favicon = "/favicon.png"
 logo = "/44696055_1010196755848129_5352581238630645760_n.png"
 subtitle = "Your Internet Footprint"
 title = "Pimpcron's Pad"
 [[content.links]]
-subtitle = "Learn more about Sasquatch"
-title = "View on GitHub"
-url = "https://github.com/dwalkr/sasquatch"
+subtitle = "Audible Warhammer chocolate for your ear holes."
+title = "Podcast"
+url = "https://pimpcron.podbean.com/"
 [[content.links]]
-subtitle = "Get started with a new Sasquatch project in Forestry"
-title = "Create Your Own"
-url = "https://app.forestry.io/quick-start?repo=dwalkr/sasquatch&engine=hugo"
+subtitle = "Shorehammer in Ocean City, Maryland"
+title = "Convention"
+url = "www.shorehammer.com"
+[[content.links]]
+subtitle = "Brutality is free, use your own models."
+title = "Free Skirmish Wargame"
+url = "https://www.facebook.com/groups/brutalityskirmishwargame/"
+[[content.links]]
+subtitle = "My articles get posted here each week."
+title = "Facebook"
+url = "https://www.facebook.com/pimpcron/"
