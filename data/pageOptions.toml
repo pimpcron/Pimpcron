@@ -1,13 +1,13 @@
 [appearance]
-accentColor = "#bce784"
-backgroundColor = "#454851"
-backgroundImage = "/raymond-culbertson-32168-unsplash.jpg"
+accentColor = "#DEB54E"
+backgroundColor = "#5E176B"
+backgroundImage = "/43745615_246714396008350_5504239325581148160_n.png"
 includePromotionalFooter = true
 textColor = "light"
 [content]
 description = "Sasquatch is your <strong>internet footprint</strong>.<br><br>Use Sasquatch to create a <strong>static landing page</strong> for your personal brand, and let people know where on the internet they can find you."
 favicon = "/favicon.png"
-logo = "/sasquatch.png"
+logo = "/44696055_1010196755848129_5352581238630645760_n.png"
 subtitle = "Your Internet Footprint"
 title = "Sasquatch"
 [[content.links]]
